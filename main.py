@@ -4,7 +4,6 @@ from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 import pandas as pd
 import joblib
-import numpy as np
 import traceback
 
 app = Flask(__name__)
